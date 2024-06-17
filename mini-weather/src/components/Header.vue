@@ -2,12 +2,12 @@
   <header>
     <div class="logo">
       <router-link to="/main">
-        <img src="" alt="">
+        <img src="logo.svg" alt="logo">
       </router-link>
     </div>
     <nav>
-      <router-link to="/main">Main</router-link>
-      <a @click="goToAbout" href="#">About</a>
+      <router-link to="/main" class="link">Main</router-link>
+      <a class="link" @click="goToAbout" href="#">About</a>
     </nav>
   </header>
 </template>
@@ -38,10 +38,27 @@ export default defineComponent( {
 <style scoped>
   header{
     display: flex;
-    justify-content: space-between;
-    align-items: center
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(14, 93, 172, 0.742);
+    position: relative;
+    z-index: 2;
   }
   a{
     text-decoration: none;
+  }
+  .link{
+    font-size: 18px;
+    margin-right: 1vmax;
+    font-weight: 700;
+    color: #fff;
+  }
+  .logo{
+    max-width: 100px;
+  }
+  .logo img{
+    width: 100%;
+    height: auto
   }
 </style>

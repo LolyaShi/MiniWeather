@@ -54,4 +54,15 @@ export default defineComponent( {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+  .searchbox{
+
+  }
+  .searchbox input{
+    margin-top: 20px;
+    width: 200px;
+    font-size: 20px;
+    line-height: 26px;
+    padding: 5px 10px;
+    border-radius: 15px 0 15px 0;
+  }
 </style>
