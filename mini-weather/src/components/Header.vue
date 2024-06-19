@@ -41,7 +41,7 @@ export default defineComponent( {
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-    background-color: rgba(14, 93, 172, 0.742);
+    background-color: rgba(101, 44, 200, 0.377);
     position: relative;
     z-index: 2;
   }
@@ -50,12 +50,12 @@ export default defineComponent( {
   }
   .link{
     font-size: 18px;
-    margin-right: 1vmax;
+    margin-right: 2vmax;
     font-weight: 700;
     color: #fff;
   }
   .logo{
-    max-width: 100px;
+    max-width: 80px;
   }
   .logo img{
     width: 100%;

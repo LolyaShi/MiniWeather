@@ -25,10 +25,5 @@ export default defineComponent( {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .main{
-    width: 100%;
-    height: 100vh;
-    background: url("../../public/img/b2.jpg") no-repeat center center fixed;
-    background-size: cover;
-  }
+
 </style>
